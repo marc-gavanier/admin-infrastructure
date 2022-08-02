@@ -1,0 +1,51 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "acm:RequestCertificate",
+        "acm:ListTagsForCertificate",
+        "acm:DescribeCertificate",
+        "acm:DeleteCertificate",
+        "acm:AddTagsToCertificate",
+        "acm:ListCertificates"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront:UpdateDistribution",
+        "cloudfront:UpdateCloudFrontOriginAccessIdentity",
+        "cloudfront:TagResource",
+        "cloudfront:ListTagsForResource",
+        "cloudfront:GetDistribution",
+        "cloudfront:GetCloudFrontOriginAccessIdentity",
+        "cloudfront:DeleteDistribution",
+        "cloudfront:DeleteCloudFrontOriginAccessIdentity",
+        "cloudfront:CreateDistribution",
+        "cloudfront:CreateCloudFrontOriginAccessIdentity"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "route53:ListTagsForResource",
+        "route53:ListResourceRecordSets",
+        "route53:GetHostedZone",
+        "route53:GetChange",
+        "route53:DeleteHostedZone",
+        "route53:CreateHostedZone",
+        "route53:ChangeTagsForResource",
+        "route53:ChangeResourceRecordSets",
+        "route53:ListHostedZones"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

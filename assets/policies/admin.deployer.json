@@ -1,0 +1,47 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "iam:AddUserToGroup",
+        "iam:AttachGroupPolicy",
+        "iam:AttachRolePolicy",
+        "iam:CreateAccessKey",
+        "iam:CreateGroup",
+        "iam:CreateLoginProfile",
+        "iam:CreatePolicy",
+        "iam:CreatePolicyVersion",
+        "iam:CreateRole",
+        "iam:CreateUser",
+        "iam:DeleteAccessKey",
+        "iam:DeleteGroup",
+        "iam:DeleteLoginProfile",
+        "iam:DeletePolicy",
+        "iam:DeletePolicyVersion",
+        "iam:DetachGroupPolicy",
+        "iam:GetGroup",
+        "iam:GetLoginProfile",
+        "iam:GetPolicy",
+        "iam:GetPolicyVersion",
+        "iam:GetRole",
+        "iam:GetRolePolicy",
+        "iam:GetUser",
+        "iam:ListAccessKeys",
+        "iam:ListAttachedGroupPolicies",
+        "iam:ListAttachedRolePolicies",
+        "iam:ListGroupsForUser",
+        "iam:ListInstanceProfilesForRole",
+        "iam:ListPolicies",
+        "iam:ListPolicyVersions",
+        "iam:ListRolePolicies",
+        "iam:PutRolePolicy",
+        "iam:RemoveUserFromGroup",
+        "iam:TagPolicy",
+        "iam:TagUser"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
