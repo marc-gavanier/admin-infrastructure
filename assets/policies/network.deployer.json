@@ -46,6 +46,14 @@
         "route53:ListHostedZones"
       ],
       "Resource": "*"
+    },
+    {
+      "Sid": "",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket"
+      ],
+      "Resource": "*"
     }
   ]
 }
