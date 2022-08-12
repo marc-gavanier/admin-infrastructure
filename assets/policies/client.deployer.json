@@ -21,6 +21,7 @@
         "s3:GetLifecycleConfiguration",
         "s3:GetReplicationConfiguration",
         "s3:ListBucket",
+        "s3:PutBucketAcl",
         "s3:PutBucketTagging"
       ],
       "Resource": "*"
