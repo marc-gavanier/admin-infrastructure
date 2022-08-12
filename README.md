@@ -169,7 +169,7 @@ terraform plan
 
 ### Apply the next state of the infrastructure
 
-Simply push the changes to the `main` branch, to apply the next state of the infrastructure in production, 
+Simply push the changes to the `main` branch, to apply the next state of the infrastructure in production.
 
 ## Built with
 
