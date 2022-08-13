@@ -51,7 +51,9 @@
       "Sid": "",
       "Effect": "Allow",
       "Action": [
-        "s3:ListBucket"
+        "s3:DeleteBucketPolicy",
+        "s3:ListBucket",
+        "s3:PutBucketPolicy"
       ],
       "Resource": "*"
     }
